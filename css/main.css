@@ -44,7 +44,7 @@ margin-top:-5px;
 }
 #menu ,
 #sidebar {
-	height:650px;
+	height:550px;
   background-color: #e9ebee;
 }
 .white-text{
@@ -62,18 +62,14 @@ margin-top:-5px;
 .navcolor{
 	background-color:white;
 }
-.time
+i.time
 {
-	font-size:11px;
-	
-	margin-left:38px;
-	margin-top:-7px;
+	font-size:1em;
 }
 .sidebar-img2{
 	height:22px;
 	margin-left:5px;
 	margin-right:7px;
-	
 }
 .name
 {
