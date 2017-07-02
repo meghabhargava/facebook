@@ -1,0 +1,140 @@
+body{
+	background-color:#e9ebee;
+	
+}
+#header {
+    background-color: #3b5998;
+    border-bottom:1px solid #29487d;
+	padding:0 80px 0 80px;
+}
+.logo-img
+{
+	height:28px;
+	margin-top:-6px;
+	margin-left:30px;
+}
+.fb-logo{
+	position:relative;
+	margin-top:-8px;
+	margin-left:25px;
+}
+#search-box{
+	border:1px solid #3b5998;
+	border-radius:3px;
+	height:29px;
+	width:400px !important;
+	margin:2px 0px 0px -20px;
+}
+.search-button
+{
+	background-color: #e9ebee;
+	height:27px;
+	margin-left:-10px;
+	border:none;
+	margin-top:2px;
+}
+.profile-picture
+{
+height:30px;
+border-radius:4px;
+margin-top:-5px;
+}
+#main{
+	height:650px;
+}
+#menu ,
+#sidebar {
+	height:650px;
+  background-color: #e9ebee;
+}
+.white-text{
+  color: white !important;
+} 
+.pull-right{ 
+	float: right !important;
+}
+.sidebar-img{
+	height:22px;
+	margin-left:5px;
+	margin-right:7px;
+	border-radius:40%;
+}
+.navcolor{
+	background-color:white;
+}
+.time
+{
+	font-size:11px;
+	
+	margin-left:38px;
+	margin-top:-7px;
+}
+.sidebar-img2{
+	height:22px;
+	margin-left:5px;
+	margin-right:7px;
+	
+}
+.name
+{
+color:black;
+padding :0px 5px !important;
+}
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.glyphicon {
+    font-size: 15px;
+}
+.list-heading{
+    padding: 20px 15px 0 15px;
+}
+p {
+0	margin: 0 0 10px;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.text-post {
+    margin-bottom: 15px;
+    margin-top:0;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main {
+    overflow: auto;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+.comment {
+    margin: 0;
+}
+#badge_1
+{
+	padding-left:10px;
+	background-color:#e9ebee;
+	color:gray;
+}
+#badge_2
+{
+	padding-left:40px;
+	background-color:#e9ebee;
+	color:gray;
+}
+.input{
+	border:none;
+}
+.mid{
+	margin-left:30px;
+}
+.right{
+	margin-left:30px;
+}
+
+.addcomment{
+width:580px;
+}
