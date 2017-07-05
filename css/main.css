@@ -1,6 +1,9 @@
 body{
 	background-color:#e9ebee;
-	
+}
+.timebar{
+	margin-left:35px;
+	margin-top:-10px;	
 }
 #header {
     background-color: #3b5998;
@@ -24,6 +27,16 @@ body{
 	height:29px;
 	width:400px !important;
 	margin:2px 0px 0px -20px;
+}
+.noti{
+	position:relative;
+	margin-left:-22px;
+	border-radius:20%;
+	background-color:red;
+	color:white;
+}
+.comment{
+	margin:0;
 }
 .search-button
 {
@@ -62,10 +75,6 @@ margin-top:-5px;
 .navcolor{
 	background-color:white;
 }
-i.time
-{
-	font-size:1em;
-}
 .sidebar-img2{
 	height:22px;
 	margin-left:5px;
@@ -87,7 +96,7 @@ padding :0px 5px !important;
     padding: 20px 15px 0 15px;
 }
 p {
-0	margin: 0 0 10px;
+	margin: 0 0 10px;
 }
 .panel-body .glyphicon {
     margin-left: 10px;
@@ -106,18 +115,18 @@ p {
 #main::-webkit-scrollbar {
     display: none;
 }
-.comment {
-    margin: 0;
+.icon{
+	font-size:11px;
 }
 #badge_1
 {
-	padding-left:10px;
+	margin-left:25px;
 	background-color:#e9ebee;
 	color:gray;
 }
 #badge_2
 {
-	padding-left:40px;
+	margin-left:55px;
 	background-color:#e9ebee;
 	color:gray;
 }
@@ -132,5 +141,9 @@ p {
 }
 
 .addcomment{
-width:580px;
+width:450px;
+}
+.color{
+	font-size:12px;
+	color:gray;
 }

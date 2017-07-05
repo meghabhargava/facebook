@@ -17,9 +17,11 @@
 		<![endif]-->
    </head>
   <body>
+  
    <!---------------------------navbar start------------------------------------------------>
-	<header>
+	
 	<nav class="navbar navbar-default" id="header">
+	<header>
 		<div class="container-fluid"> 
 		<!--------- i have used container-fluid to set my nav bar like facebook------------------>
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -42,11 +44,13 @@
 			</form>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#" class="white-text"><img src="images/profilepicture.jpg" class="profile-picture"> Megha</a></li>
-				<li><a href="#" class="white-text">Home</a></li>
+				<li><a href="#" class="white-text"> Home </a></li>
 				<li><a href="#" class="white-text"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
+				<li><small class="noti">5</small></li>
 				<li><a href="#" class="white-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
-				<li><a href="#" class="white-text"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-</a></li>
+				<li><small class="noti">45</small></li>
+				<li><a href="#" class="white-text"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+				<li><small class="noti">2</small></li>
 				<li><a href="#" class="white-text"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
 				<li class="dropdown">
 				  <a href="#" class="white-text dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -69,14 +73,15 @@
 			</ul>
 			</div><!-- /.navbar-collapse -->
 		 </div><!-- /.container-fluid -->
+		 </header>
 	</nav>
- </header>
+ 
 <!-----------------------------------BODY----------------------------->
-   <div class="container">
+  
    <div class="container" id="wrapper">
        <div class="row">
 	   <!-----------------------------------leftmenu------------------------------------>
-        <div class="hidden-xs col-sm-4 col-md-2">
+        <div class="hidden-xs hidden-sm col-md-2">
 			<div id="menu">
 			 <ul class="nav nav-pills nav-stacked">
 				<li role="presentation"><a href="#"class="name" ><img src="images/profilepicture.jpg" class="sidebar-img2"> Megha Bhargava</a></li><br>
@@ -95,6 +100,7 @@
 				 <span class="badge" id="badge_2">2</span></a></li>
 				 <li role="presentation"><a href="#" class="name"><img src="images/group.jpg"  class="sidebar-img"> <small> Groups</small></a></li>
 				<li role="presentation"><a href="#" class="name"><img src="images/page.jpg"  class="sidebar-img"> <small> Pages</small></a></li>
+				<li role="presentation"><a href="#" class="name"><img src="images/poke.jpg"  class="sidebar-img"> <small> Poke</small></a></li>
 			</ul>
 			<ul class="nav nav-pills nav-stacked">
 				<p class="list-heading"> Create</p>	
@@ -104,7 +110,7 @@
 		</div>
 		<!----------------------------------left side end------------------------------------------>
 		<!------------------------------------------main body------------------------------------>
-	    <div class="col-md-7">
+	    <div class="col-xs-12 col-sm-8 col-md-7">
 		<div id="main">
 			<div class="panel panel-default">
 			  <div class="panel-heading">
@@ -125,13 +131,11 @@
 		<!------------------------------ status part---------------------------------->
 		<div class="panel panel-default">
 			<div class="panel-heading">
-			<div class="row">
-			  <div class="col-sm-1">
-			  <img src="images/profile-pic.jpg" alt="megha">
-			  </div>
-			  <a href="#"> Kritika Goswami</a>
-			  <br><span><small> 22mins.<i class="glyphicon glyphicon-globe time" aria-hidden="true"></span></i></small>
-			  </div>
+		   <img src="images/profile-pic.jpg" alt="kri"> <a href="#"> Kritika Goswami</a>
+		   <span class="glyphicon glyphicon-menu-down title-color pull-right" aria-hidden="true"></span>
+				 <small>
+			<div class="timebar"> 55 mins <span class="glyphicon glyphicon-globe icon" aria-hidden="true"></span>
+			</div></small>
 			</div>
 			<div class="panel-body">
 			<div><h3 class="text-post">There's no fun in perfect life. So make a risk. Take a chance. Go where the wind takes you.</h3></div> 
@@ -147,7 +151,9 @@
 			<a href="#"><img class="media-object" src="images/profile-pic1.jpg" alt="pri"></a></div>
 		    <div class="media-body">
 		    <p class="comment"> <span><a href="#">Priyanka Dhiman </a></span> nice lines </p>
-			<div> <small><span> <a href="#">Like </a></span>&nbsp <span> <a href="#">Comment </a></span> </small> </div>
+			<div> <small><span> <a href="#">Like </a></span>&nbsp <span> <a href="#">Reply </a></span></small> 
+			<img src="images/commentlike.png"><span class="color"> 2· 20 mins</span>
+			</div>
 			</div>
 			</li>
 			<li class="media">
@@ -156,7 +162,8 @@
 		<div class="media-body">
 			<p class="comment"> <span><a href="#">Megha Bhargava </a></span> very true lines</p>
 			<div> 
-			<small><span> <a href="#">Like </a></span>&nbsp <span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span>&nbsp <span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color"> 1· 8 mins </span>
 			</div>
 			<ul class="media-list">
 			<li class="media">
@@ -165,7 +172,8 @@
 		  <div class="media-body">
 		 	<p class="comment"> <span><a href="#">Kritika Goswami </a></span> thnzz </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span> &nbsp <span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span> &nbsp <span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color"> 2· 2 mins </span>
 			</div>
 			</div>
 			</li>
@@ -173,21 +181,22 @@
 		</div>
 			</li>
 			</ul>
-			<img src="images/profilepicture.jpg">
-			<input type="text"  placeholder="Add Comment Here...." class="addcomment">
+			<div class="media-left">
+			<img src="images/profilepicture.jpg"> 
 			</div>
+		<div class="media-body">
+			<input type="text" class="form-control" placeholder="Write a Comment......">
+		</div>
+		</div>
 		</div>
 		<!------------------------blockquote part-------------------------------->
 		<div class="panel panel-default">
 			  <div class="panel-heading">
-			    <div class="row">
-			  <div class="col-sm-1">
-			  <img src="images/profilepicture.jpg" alt="megha">
-			  </div>
-			  <a href="#"> Megha Bhargava</a>
-			  <br><span><small> 5 hrs.<i class="glyphicon glyphicon-user time" aria-hidden="true"></span></i></small>
-			  </div>
-			  </div>
+			  <img src="images/profilepicture.jpg" alt="megha"> <a href="#"> Megha Bhargava</a>
+			  <span class="glyphicon glyphicon-menu-down title-color pull-right" aria-hidden="true"></span><small>
+			 <div class="timebar">5 hrs <span class="glyphicon glyphicon-user icon" aria-hidden="true"></span>
+			 </div></small>
+			 </div>
 			 <div class="panel-body">
 			  <blockquote>
 			  <p>Nothing is impossible in this life.</p>
@@ -206,7 +215,8 @@
 		  <div class="media-body">
 		  	<p class="comment"> <span><a href="#">Neha Sharma </a></span> great </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span> &nbsp <span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span> &nbsp <span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color"> 1· 4 hrs </span>
 			</div>
 			</div>
 			</li>
@@ -216,7 +226,8 @@
 		  <div class="media-body">
 			<p class="comment"> <span><a href="#">Priyanshi Bhargava </a></span> love u </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span> &nbsp <span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span> &nbsp <span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color"> 1· 2 hrs </span>
 			</div>
 			<ul class="media-list">
 			<li class="media">
@@ -225,7 +236,8 @@
 		  <div class="media-body">
 		 	<p class="comment"> <span><a href="#">Megha Bhargava </a></span> always mera bcha </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color"> 3· 1 hr </span>
 			</div>
 			</div>
 			</li>
@@ -235,12 +247,13 @@
 		  <div class="media-body">
 		 	<p class="comment"> <span><a href="#">Neha Sharma </a></span> sb ka pyara bcha </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color"> 2· 54 mins </span>
 			</div>
 			</div>
 			</li>
 			</ul>
-		</div>
+		   </div>
 			</li>
 			<li class="media">
 			<div class="media-left">
@@ -248,7 +261,8 @@
 		  <div class="media-body">
 			<p class="comment"> <span><a href="#">Kritika Goswami </a></span> kya baat hai  </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span> &nbsp <span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span> &nbsp <span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color"> 1· 45 mins </span>
 			</div>
 			<ul class="media-list">
 			<li class="media">
@@ -257,28 +271,30 @@
 		  <div class="media-body">
 		 	<p class="comment"> <span><a href="#">Megha Bhargava </a></span> bilkul ji </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color">· 30 mins </span>
 			</div>
 			</div>
 			</li>
 			</ul>
-		</div>
+		   </div>
 			</li>
 			</ul>
-			<img src="images/profilepicture.jpg">
-			<input type="text"  placeholder="Add Comment Here...." class="addcomment">
-		</div>
+			<div class="media-left">
+			<img src="images/profilepicture.jpg"> 
+			</div>
+		  <div class="media-body">
+			<input type="text" class="form-control" placeholder="Write a Comment......">
+		  </div>
+			</div>
 		</div>
 		<!----------------------- photo part-------------------------------->
 		<div class="panel panel-default">
 			<div class="panel-heading">
-			<div class="row">
-			  <div class="col-sm-1">
-			  <img src="images/profile-pic4.jpg" alt="mahadev">
-			  </div>
-			  <a href="#"> Lutru Mahadev</a>
-			  <br><span><small> 18 hrs. <i class="glyphicon glyphicon-globe time" aria-hidden="true"></span></i></small>
-			  </div>
+			<img src="images/profile-pic4.jpg" alt="mahadev"> <a href="#"> Lutru Mahadev</a>
+			<span class="glyphicon glyphicon-menu-down title-color pull-right" aria-hidden="true"></span><small>
+			 <div class="timebar"> 18 hrs. <span class="glyphicon glyphicon-globe icon" aria-hidden="true"></span>
+			  			  </div></small>
 			</div>
 			<div class="panel-body">
 			<img src="images/maha.jpg" class="img-responsive image-post" alt="Responsive image">
@@ -295,7 +311,8 @@
 		  <div class="media-body">
 		  	<p class="comment"> <span><a href="#">Priyanka Dhiman </a></span> om namah shivaya </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span>&nbsp <span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span>&nbsp <span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color"> 5· 18 hrs </span>
 			</div>
 			</div>
 			</li>
@@ -305,7 +322,8 @@
 		  <div class="media-body">
 			<p class="comment"> <span><a href="#">Priyanshi Bhargava </a></span> har har mahadev </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span>&nbsp <span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span>&nbsp <span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color"> 7· 16 hrs </span>
 			</div>
 			<ul class="media-list">
 			<li class="media">
@@ -314,7 +332,8 @@
 		  <div class="media-body">
 		 	<p class="comment"> <span><a href="#">Priyanka Dhiman </a></span> chalo fir bhole k darshan karne </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color"> 3· 14 hrs </span>
 			</div>
 			</div>
 			</li>
@@ -322,21 +341,22 @@
 		</div>
 			</li>
 			</ul>
-			<img src="images/profilepicture.jpg">
-			<input type="text"  placeholder="Add Comment Here...." class="addcomment">
+			<div class="media-left">
+			<img src="images/profilepicture.jpg"> 
 			</div>
+		<div class="media-body">
+			<input type="text" class="form-control" placeholder="Write a Comment......">
+		</div>
+		</div>
 		</div>
 		<!---------------------------video part-------------------------------->
 		<div class="panel panel-default">
 			<div class="panel-heading">
-			<div class="row">
-			  <div class="col-sm-1">
-			  <img src="images/profile-pic3.jpg" alt="pihu">
-			  </div>
-			  <a href="#"> Priyanshi Bharagava</a>
-			  <br><span><small> 10hrs. <i class="glyphicon glyphicon-user time" aria-hidden="true"></span></i></small>
-			  </div>
-			</div>
+			<img src="images/profile-pic3.jpg" alt="pihu"> <a href="#"> Priyanshi Bhargava</a>
+			<span class="glyphicon glyphicon-menu-down title-color pull-right" aria-hidden="true"></span>
+			  <div class="timebar"> 10 hrs. <span class="glyphicon glyphicon-user icon" aria-hidden="true"></span>
+		  </div>
+		 </div>
 			<div class="panel-body">
 			<div class="embed-responsive embed-responsive-16by9">
 			<iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/yjVtrGpCSig" frameborder="0" allowfullscreen></iframe>
@@ -354,7 +374,8 @@
 		  <div class="media-body">
 		  	<p class="comment"> <span><a href="#">Priyanka Dhiman </a></span> nice video </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span>&nbsp <span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span>&nbsp <span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color"> 3· 9 hrs </span>
 			</div>
 			</div>
 			</li>
@@ -364,7 +385,8 @@
 		  <div class="media-body">
 			<p class="comment"> <span><a href="#">Neha Sharma </a></span> cartoon love  </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color"> 2· 5 hrs </span>
 			</div>
 			<ul class="media-list">
 			<li class="media">
@@ -373,7 +395,8 @@
 		  <div class="media-body">
 		 	<p class="comment"> <span><a href="#">Priyanka Dhiman </a></span> online online sb </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color"> 3· 1 hr </span>
 			</div>
 			</div>
 			</li>
@@ -383,23 +406,27 @@
 		  <div class="media-body">
 		 	<p class="comment"> <span><a href="#">Megha Bhargava </a></span> nicee.. </p>
 			<div> 
-			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Comment </a></span> </small>
+			<small><span> <a href="#">Like </a></span> &nbsp<span> <a href="#">Reply </a></span> </small>
+			<img src="images/commentlike.png"><span class="color">· 18 hrs </span>
 			</div>
 			</div>
 			</li>
 			</ul>
-		</div>
+		 </div>
 			</li>
-			</ul>
-			<img src="images/profilepicture.jpg">
-			<input type="text" placeholder="Add Comment Here...." class="addcomment">
+			</ul><div class="media-left">
+			<img src="images/profilepicture.jpg"> 
 			</div>
-		</div>
-		</div>
+		 <div class="media-body">
+			<input type="text" class="form-control" placeholder="Write a Comment......">
+		  </div>
+	      </div>
+		 </div>
+		 </div>
 		</div>
 		<!--------------------------------------end body------------------------------------------>
 		<!------------------------------right side------------------------------------------------------->
-		<div class="col-md-3">
+		<div class="hidden-xs hidden-sm col-md-3">
 		   <div id="sidebar">
 		     <div class="panel panel-default">
 				<div class="panel-body"><span><img src="images/birthd.jpg">Today is your birthday</span></div>
@@ -417,7 +444,7 @@
 					<p>Trump tweets attack on "Morning Joe" hosts- <a href="#"> nbcnews.com</a></p></span>
 					<span><span class="glyphicon glyphicon-flag" aria-hidden="true"></span><a href="#"> Iraqi Armed Forces</a>
 					<p>Iraq declares end of caliphate after capture of Mosul mosque -<a href="#"> reuters.com</a></p></span>
-                </div>
+                </div> 
 				</div>
 		        </div>
         <div role="tabpanel" class="tab-pane navcolor" id="politics"><div class="panel-body"><div> 
@@ -457,7 +484,7 @@
 	</div>
 	</div>
   </div>
-  </div>
+  
   <!---------------------pill-------------------------->
   <footer class="container"> 
 	<ul class="nav nav-pills pull-right">
@@ -469,6 +496,7 @@
       <li role="presentation "><a href="# ">Ad Choices</a></li>
     </ul>
    </footer>
+   
 <!-------------------------------end---------->
      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
